@@ -1,0 +1,15 @@
+/* .Completed {
+    color: grey;
+    text-decoration: line-through;
+} */
+
+.Completed+label span:first-of-type {
+	background-color: #10B981;
+	border-color: #10B981;
+	color: #fff;
+}
+
+.Completed+label span:nth-of-type(2) {
+	text-decoration: line-through;
+	color: #9CA3AF;
+}
